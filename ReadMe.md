@@ -48,6 +48,9 @@ Challenges within each section are meant to be solved in order.
     - `cd ~`
 1.  Navigate back to the previous directory
     - `cd -`
+1.  Cut and Yank
+    - `CTRL K`
+    - `CTRL Y`
 
 ### Variables
 
@@ -84,21 +87,41 @@ Challenges within each section are meant to be solved in order.
 ### Files
 
 1.  Navigate to the directory `Animals`
+    - `cd Animals`
 1.  Print the contents of the file `Cats.txt`
+    - `cat Cats.txt`
+    - `more Cats.txt`
+    - `less Cats.txt`
 1.  Print the contents of both files `Cats.txt` and `Dogs.txt`
+    - `cat Cats.txt Dogs.txt`
+    - `more Cats.txt Dogs.txt`
+    - `less Cats.txt Dogs.txt`
 1.  Count the words in the file `Cats.txt`
+    - `wc -w Cats.txt`
 1.  Count the words in all files with the extension `.txt`
+    - `wc -w *.txt`
 1.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
+    - `cp Dogs.txt BabyDogs.txt`
 1.  Rename the file `BabyDogs.txt` to `Puppies.txt`
+    - `mv BabyDogs.txt Puppies.txt`
 1.  Make a new directory named `Shelter` inside `Animals`
+    - `mkdir Shelter`
 1.  Move the file `Puppies.txt` into the directory `Shelter`
+    - `mv Puppies.txt Shelter/`
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
+    - `cp Cats.txt Shelter/Kittens.txt`
 1.  List the files within the directory `Shelter`
+    - `ls Shelter`
 1.  Count the words in all `.txt` files inside `Shelter`
+    - `wc -w Shelter/*.txt`
 1.  Try to remove the directory `Shelter` (this should fail)
+    - `rm Shelter/`
 1.  Remove all `.txt` files inside `Shelter`
+    - `rm Shelter/*.txt`
 1.  Remove the directory `Shelter` (this should succeed)
+    - `rm -R Shelter`
 1.  Now cry because you just deleted those poor tiny animals
+    - `waaaa waaaa`
 
 ### Permissions
 
